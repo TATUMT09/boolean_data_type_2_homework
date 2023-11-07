@@ -1,3 +1,4 @@
+
 def main(a):
     """
     Check if a given year is a leap year and the square of the year is greater than 10000.
@@ -7,4 +8,5 @@ def main(a):
         bool
     """
     # Write your code here
-    return 
+    return a*a>=10000,
+print(main())

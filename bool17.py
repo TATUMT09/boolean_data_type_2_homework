@@ -8,4 +8,5 @@ def main(L,R):
         bool
     """
     # Write your code here
-    return 
+    return 6,28*R==L
+print(main())
